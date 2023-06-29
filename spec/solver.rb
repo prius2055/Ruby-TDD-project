@@ -3,11 +3,15 @@ class Solver
         result = 1
         if n == 0 
             result
-        else  
-        (1..n).each do |i|
+        # elsif  n < 0
+        #     raise ArgumentError "Argument must be a non-negative integer"
+        
+        else
+            (1..n).each do |i|
             result = result * i
         end
-        result
+        
         end
+        result
     end
 end
