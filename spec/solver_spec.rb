@@ -1,4 +1,3 @@
-# require 'rspec'
 require_relative 'solver'
 
 describe Solver do
@@ -15,7 +14,6 @@ describe Solver do
         it 'returns the reverse of a word passed in as argument' do
             solver = Solver.new
             expect(solver.reverse('hello')).to eq ('olleh')
-            # expect(solver.factorial(-1)).to raise_error ('Negative values not accepted')
         end
     end
      
