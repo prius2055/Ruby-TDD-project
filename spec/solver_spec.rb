@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'solver'
+require_relative '../solver'
 
 describe Solver do
   let(:solver) { Solver.new }
