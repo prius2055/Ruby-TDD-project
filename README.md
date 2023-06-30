@@ -41,6 +41,8 @@ This repository contains ruby files with ruby code.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- Write tests for Solver class methods
+- Implement tests (Follow TDD).
 
 
 
@@ -52,7 +54,7 @@ This repository contains ruby files with ruby code.
 
 To get a local copy up and running, follow these steps.
 
-- git clone https://github.com/kalbek/school-libray.git
+- git clone https://github.com/prius2055/Ruby-TDD-project.git
 - install ruby on your machine
  
 
@@ -64,7 +66,7 @@ In order to run this project you need to install ruby on your machine
 
 - install ruby on your machine
 
-Clone this repository to your desired folder: https://github.com/kalbek/school-libray.git
+Clone this repository to your desired folder: https://github.com/prius2055/Ruby-TDD-project.git
  
 
 ### Usage
@@ -74,6 +76,11 @@ To use this project run the command `ruby person.rb` on the terminal.
 ### Run tests
 
 run command `rubocop --auto-correct`
+- test is written using RSpec
+- commands to run: 
+  - cd spec
+  - rspec solver_spec.rb
+
 
 ### Deployment
 
